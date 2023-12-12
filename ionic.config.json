@@ -1,0 +1,7 @@
+{
+  "name": "financy-mobnile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
