@@ -1,0 +1,128 @@
+label {
+  color: #ec5c1acc;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.overlay-card {
+  padding: 20px;
+  height: 310px;
+  margin: 0 auto;
+  margin-top: -55px;
+  z-index: 10;
+  width: 90%;
+}
+
+.password {
+  margin-bottom: 20px;
+}
+
+.enter {
+  text-align: center;
+
+  ion-button {
+    &.btn-enter {
+      --background: #e65d1d;
+      width: 75%;
+      padding: 6px 12px;
+      font-size: 14px;
+      --border-radius: 5px;
+      color: #FFFF;
+      font-weight: bold;
+
+      &:hover {
+        --background: #f5a079;
+      }
+
+      &:focus,
+      &:active {
+        --background: #e65d1d;
+      }
+    }
+  }
+}
+
+.forgot-password {
+  text-align: center;
+
+  ion-button {
+    &.btn-forgot-password {
+      --background: #FFFF;
+      width: 75%;
+      padding: 6px 12px;
+      font-size: 14px;
+      --border-radius: 5px;
+      color: #e65d1d;
+      font-weight: bold;
+
+      --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    }
+  }
+}
+
+.signup {
+  text-align: center;
+
+  ion-button {
+    &.btn-signup {
+      --background: #3f8f09;
+      width: 75%;
+      padding: 6px 12px;
+      font-size: 14px;
+      text-transform: uppercase;
+      --border-radius: 5px;
+      color: #FFFF;
+      font-weight: bold;
+      --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    }
+
+    &.btn-menu {
+      --background: #FFFF;
+      width: 75%;
+      padding: 6px 12px;
+      font-size: 14px;
+      --border-radius: 5px;
+      color: #e65d1d;
+      font-weight: bold;
+      --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    }
+  }
+}
+
+ion-header {
+  background: #068361;
+  height: 250px;
+  text-align: center;
+  position: relative;
+}
+
+ion-header p {
+  padding: 0 0 10px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+
+.form-control {
+  margin: 0 0 10px 0;
+}
+
+input {
+  font-size: 14px;
+}
+
+label {
+  font-size: 13px;
+}
+
+.overlay-card-buttons {
+  background-color: transparent;
+  padding: 20px;
+  height: initial;
+  margin: 0 auto;
+  margin-top: initial;
+  margin-bottom: initial;
+  z-index: initial;
+  width: 90%;
+  box-shadow: none;
+}
